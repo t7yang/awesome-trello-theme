@@ -1,0 +1,50 @@
+/* list card details */
+.list-card-details {
+  overflow: hidden;
+  padding: 0.3em 0.4em 1em 0.4em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* card title */
+.list-card .list-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-card-details .list-card-labels {
+  position: absolute;
+  bottom: 0;
+  order: 4;
+}
+
+/* list card label */
+.card-label.mod-card-front {
+  height: initial;
+  width: initial;
+  line-height: initial;
+  padding: 0 0.2em;
+  font-size: 0.8em;
+  margin-right: 0.1em;
+  min-width: 1em;
+  max-width: 4em;
+}
+
+/* list-card => badge */
+.list-card-details .badges .custom-field-front-badges {
+  display: none;
+}
+
+/* member */
+.list-card-members .member {
+  border-radius: 0.2em;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.list-card-members .member-avatar {
+  border-radius: 0.2em;
+  width: 1.5em;
+  height: 1.5em;
+}

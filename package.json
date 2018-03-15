@@ -1,0 +1,13 @@
+{
+  "name": "awesome-trello-theme",
+  "version": "1.0.0",
+  "description":
+    "a compact layout trello theme with label text for efficient people",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "t7yang <t7yang@gmail.com>",
+  "contributors": ["felixc"],
+  "license": "MIT"
+}
